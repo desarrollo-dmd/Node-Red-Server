@@ -9,4 +9,5 @@ services:
     ports:
     - "1880:1880"
     volumes:
-     - ./node-red/modules:/root/.node-red
+      - ./node-red/data:/data
+      - ./node-red/modules:/root/.node-red
